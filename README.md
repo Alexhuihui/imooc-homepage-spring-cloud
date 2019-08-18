@@ -77,3 +77,7 @@ public class ZuulGatewayApplication {
     
 3. 最后的filterOrder应该比FilterConstants.SEND_RESPONSE_FILTER_ORDER小，保证在其返回之前运行
 
+### 公共模块
+1. 为了微服务之间的调用能够使用同一个对象，而不是在每个微服务中都定义一遍
+2. 本项目的公共模块定义了3个类：课程信息、用户信息和课程信息请求对象
+

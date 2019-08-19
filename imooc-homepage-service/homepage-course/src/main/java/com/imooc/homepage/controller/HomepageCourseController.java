@@ -35,7 +35,7 @@ public class HomepageCourseController {
         return iCourseService.getCourseInfo(id);
     }
 
-    @GetMapping("/get/courses")
+    @PostMapping("/get/courses")
     public List<CourseInfo> getCourseInfos(
             @RequestBody CourseInfosRequest request) {
 

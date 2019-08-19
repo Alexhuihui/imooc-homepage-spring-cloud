@@ -14,6 +14,7 @@
 
     <modules>
         <module>homepage-common</module>
+        <module>homepage-course</module>
     </modules>
 
     <packaging>pom</packaging>

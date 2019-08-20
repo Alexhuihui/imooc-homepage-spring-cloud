@@ -16,15 +16,15 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserCouserInfo {
+public class UserCourseInfo {
 
     private UserInfo userInfo;
 
     private List<CourseInfo> courseInfos;
 
-    public static UserCouserInfo invalid() {
+    public static UserCourseInfo invalid() {
 
-        return new UserCouserInfo(
+        return new UserCourseInfo(
                 UserInfo.invalid(),
                 Collections.emptyList()
         );

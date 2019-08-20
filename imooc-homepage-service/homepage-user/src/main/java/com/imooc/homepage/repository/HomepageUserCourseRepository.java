@@ -13,8 +13,8 @@ public interface HomepageUserCourseRepository extends JpaRepository<HomepageUser
 
     /**
      * <h2>通过用户 id 寻找数据记录</h2>
-     * @param id 用户 id
+     * @param userId 用户 id
      * @return 该用户 id 下的所有课程
      */
-    List<HomepageUserCourse> findAllbyUserId(Long id);
+    List<HomepageUserCourse> findAllByUserId(Long userId);
 }

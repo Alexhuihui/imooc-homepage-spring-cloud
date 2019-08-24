@@ -2,6 +2,7 @@
 ### 多节点启动Eureka Server
 1. mvn clean package -Dmaven.test.skip=true -U
 2. java -jar homepage-eureka-1.0-SNAPSHOT.jar --spring.profiles.active=server1
+3. server1是kyy,server2是light,server3是cloud
 ```yaml
 spring:
   application:
